@@ -1,0 +1,16 @@
+{
+  "name": "node-fy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "fy": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "md5": "^2.3.0"
+  }
+}
